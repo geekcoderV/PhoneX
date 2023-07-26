@@ -3,6 +3,7 @@ import time
 import subprocess
 time.sleep(1)
 
+Credits = "Made by: Geekcoder"
 
 cmd = 'apt install adb && pip install colorama && pip install --upgrade pip'
 os.system(cmd)
@@ -25,7 +26,8 @@ time.sleep(1)
 print(f"""\n
 	{Fore.RED}WARNING!!{Fore.YELLOW}
 	This tool is for education purposes only, use it for your own good,
-	If you get caught your own on your own{Fore.GREEN}
+	If you get caught your on on your own{Fore.GREEN}
+	{Credits}
 	""")
 def main():
 	time.sleep(1)
